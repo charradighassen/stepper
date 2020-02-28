@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap');
+
+header {
+  display: flex;
+  padding: 20px;
+}
+
+body {
+  font-family: Muli, roboto;
+}
+
+.stepper {
+  margin: 0 auto;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #4C5264;
+  padding: 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.item {
+  margin: 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  padding: 3px 10px;
+}
+
+.item label {
+  font-weight: 600;
+  color: #4C5264;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab>p {
+  text-align: center;
+  padding: 0;
+}
+
+.step-index {
+  color: #4C5264;
+}
+
+.tab-inputs {
+  width: 80%;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #0FD2CB;
+
+
+}
+
+.link:active {
+  color: #0FD2CB;
+}
+
+.payement-info {
+  width: 100%;
+  display: flex;
+}
+
+.resume {
+  border: 1px solid #0FD2CB;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.resume-title {
+  padding: 10px 0 10px 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font: Bold 16px/22px Muli;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  background-color: #2699FB;
+  opacity: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 40px;
+  width: 100%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  width: 100%;
+  font-size: 16px;
+  font-family: Muli;
+  border: none;
+  color: #4C5264;
+  border-bottom: 2px solid rgb(228, 224, 224);
+
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  top: 314px;
+  left: 740px;
+  width: 171px;
+  height: 16px;
+  text-align: left;
+  font-family: Regular, Muli;
+  font-size: 16px/22px;
+  letter-spacing: 0;
+  color: #4C5264;
+  opacity: 1;
+  padding: 2px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #2699FB 0%, #0FD2CB 100%)
+}
+
+button:hover {
+  background-position: right center;
+}
+
+.final-check {
+
+  width: 56px;
+  height: 43px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  background: #2699FB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-size: 60px;
+  font-weight: 300;
+  color: #2699FB
+}
